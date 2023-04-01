@@ -175,7 +175,7 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
-@media(min-width:768px){
+@media(min-width:1140px){
     .content{
         display: flex;
         flex-direction: row;

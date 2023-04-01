@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="assets/fonts/HankenGrotesk-VariableFont_wght.ttf">
+    <link href="assets/fonts/static/HankenGrotesk-Bold.ttf">
+    <link href="assets/fonts/static/HankenGrotesk-ExtraBold.ttf">
+    <link href="assets/fonts/static/HankenGrotesk-Medium.ttf">
+   <link rel="stylesheet" href="assets/css/app.css">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="content">
+      <section class="card__principal">
+        <div><h1 class="card__principal-title">Your Result</h1></div>
+        
+        <div class="circle">
+          <h2 class="circle__porcentaje-from">76</h2>
+          <p class="circle__porcentaje-to">of 100</p>
+        </div>
+        <div class="card__score">
+          <h2 class="card__score-title">Great</h2>
+          <p class="card__score-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+      <section class="sumary">
+        <div>
+        <h2 class="sumary__title">Summary</h2>
+        <div class="sumary__reaction">
+          <div class="sumary_icons">
+            <img src="assets/images/icon-reaction.svg" alt="">
+          <p class="sumary__reaction-title">Reaction</p>
+        </div>
+          <p class="sumary__score"><span data-reaction>80</span> / 100</p>
+        </div>
+        <div class="sumary__memory">
+          <div class="sumary_icons">
+            <img src="assets/images/icon-memory.svg" alt="">
+          <p class="sumary__memory-title">Memory</p>
+        </div>
+          <p class="sumary__score"><span data-memory>92</span> / 100</p>
+        </div>
+        <div class="sumary__verbal">
+          <div class="sumary_icons">
+            <img src="assets/images/icon-verbal.svg" alt="">
+          <p class="sumary__verbal-title"> Verbal</p>
+        </div>
+          <p class="sumary__score"><span data-verbal>61</span> / 100</p>
+        </div>
+        <div class="sumary__visual">
+          <div class="sumary_icons">
+            <img src="assets/images/icon-visual.svg" alt="">
+          <p class="sumary__visual-title">Visual</p>
+        </div>
+          <p class="sumary__score"><span data-visual>72</span> / 100</p>
+        </div>
+      </div>
+      <button class="button">Continue</button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alan Celaya</a>.
+      </div>
+    </footer>
+    <script src="data.json"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
